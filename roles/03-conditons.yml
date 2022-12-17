@@ -1,0 +1,6 @@
+- name: Demo on conditions
+  hosts: localhost
+  tasks:
+    - name: Print hello if variable HELLO is defined
+      ansible.builtin.debug:
+        msg: Hello
